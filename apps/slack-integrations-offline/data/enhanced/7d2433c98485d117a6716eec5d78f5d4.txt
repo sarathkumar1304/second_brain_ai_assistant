@@ -1,0 +1,102 @@
+`Ctrl``k`
+
+GitBook AssistantAsk
+
+ProductResourcesGitHubStart free
+
+More
+
+  * Documentation
+  * Learn
+  * ZenML Pro
+  * Stacks
+  * API Reference
+  * SDK Reference
+  * Changelog
+
+
+
+GitBook Assistant
+
+GitBook Assistant
+
+Working...Thinking...
+
+GitBook Assistant
+
+##### Good evening
+
+I'm here to help you with the docs.
+
+What is this page about?What should I read next?Can you give an example?
+
+`Ctrl``i`
+
+AI Based on your context
+
+Send
+
+  * Getting Started
+
+    * Welcome to ZenML
+    * Installation
+    * Hello World
+    * Your First AI Pipeline
+    * Core Concepts
+    * System Architecture
+  * Deploying ZenML
+
+    * Deploy
+    * Connect
+    * Manage
+  * Concepts
+
+    * Steps & Pipelines
+    * Artifacts
+    * Stack & Components
+    * Service Connectors
+    * Pipeline Snapshots
+    * Pipeline Deployments
+    * Containerization
+    * Code Repositories
+    * Secrets
+    * Environment Variables
+    * Tags
+    * Metadata
+    * Models
+    * Dashboard
+    * Templates
+  * Reference
+
+    * Community & content
+    * Environment Variables
+    * MCP Docs & llms.txt
+    * FAQ
+    * Global settings
+    * Legacy docs
+
+
+
+Powered by GitBook
+
+On this page
+
+Was this helpful?
+
+GitBook AssistantAsk
+
+  1. Concepts
+
+
+
+# Templates
+
+Create and run templates in ZenML to standardize execution.
+
+Run templates have been replaced by pipeline snapshots.
+
+PreviousDashboardNextCommunity & content
+
+Last updated 2 months ago
+
+Was this helpful?
