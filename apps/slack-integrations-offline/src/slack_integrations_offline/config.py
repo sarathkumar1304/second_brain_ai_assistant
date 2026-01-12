@@ -68,7 +68,7 @@ class Settings(BaseSettings):
 # --------------------------------------------------
 try:
     settings = Settings()
-    logger.info("Configuration loaded successfully")
+    logger.info("Configuration loaded successfully ")
 
 except Exception as e:
     logger.error(f"Failed to load configuration: {e}")

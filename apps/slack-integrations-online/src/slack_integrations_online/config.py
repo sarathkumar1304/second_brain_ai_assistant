@@ -28,7 +28,7 @@ class Settings(BaseSettings):
     # --------------------------------------------------
     MONGODB_DATABASE_NAME: str = Field(
         default="slack_integration",
-        description="MongoDB database name.",
+        description="MongoDB database name  .",
     )
 
     MONGODB_URI: str | None = Field(
