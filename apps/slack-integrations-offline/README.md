@@ -53,8 +53,8 @@ But, in case you want to deploy the code, you'll need to setup the following ser
 
 Start by cloning the repository and navigating to the project directory:
 ```
-git clone 
-cd slack_integrations
+git clone https://github.com/sarathkumar1304/second_brain_ai_assistant.git
+cd second_brain_ai_assistant
 ```
 
 ## 2. Installation
@@ -79,6 +79,7 @@ We use [Crawl4AI](https://github.com/unclecode/crawl4ai) for crawling. To finish
 crawl4ai-setup
 
 # Verify your installation
+crawl4ai-doctor
 
 ```
 
@@ -125,22 +126,7 @@ Before running any command, you have to set up your environment:
 └── pyproject.toml                   # Project dependencies
 ```
 
-# 🏗️ Set Up Your Local Infrastructure
 
-We use Docker to set up the local infrastructure (ZenML, MongoDB).
-
-> [!WARNING]
-> Before running the command below, ensure you do not have any processes running on port `27017` (MongoDB) and `8237` (ZenML).
-
-To start the Docker infrastructure, run:
-```bash
-make local-infrastructure-up
-```
-
-To stop the Docker infrastructure, run:
-```bash
-make local-infrastructure-down
-```
 
 > [!NOTE]
 > To visualize the raw and RAG data from MongoDB, we recommend using [MongoDB Compass](https://rebrand.ly/second-brain-course-mongodb-compass) or Mongo's official IDE plugin (e.g., `MongoDB for VS Code`). To connect to the working MongoDB instance, use the `MONGODB_URI` value from the `.env` file or found inside the [config.py](src/slack_integrations_offline/config.py) file.
@@ -172,8 +158,7 @@ Run the below command to collect the crawled data from the documentation web pag
 ur run python -m tools.run --run-collect-crawl-data-pipeline
 ```
 
-> [!IMPORTANT]
-> If running `make collect-crawl-data` fails, type `https://support-public-data.s3.us-east-1.amazonaws.com/slack_integrations/crawled/crawled.zip` in your browser to download the dataset manually. Unzip `crawled.zip` and place it under the `data` directory as follows: `data/crawled` (create the `data` directory if it doesn't exist).
+
 
 Running criteria:
 - Running costs: $0
