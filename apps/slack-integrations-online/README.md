@@ -58,8 +58,8 @@ But, in case you want to deploy the code, you'll need to setup the following ser
 
 Start by cloning the repository and navigating to the project directory:
 ```
-git clone https://github.com/karthikponna/slack_integrations.git
-cd slack_integrations
+git clone https://github.com/sarathkumar1304/second_brain_ai_assistant.git
+cd second_brain_ai_assistant
 ```
 
 ## 2. Installation
