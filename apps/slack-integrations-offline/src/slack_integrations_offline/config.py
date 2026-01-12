@@ -58,7 +58,7 @@ class Settings(BaseSettings):
     )
 
     MONGODB_URI: str | None = Field(
-        default="mongodb+srv://slackintegration:uWmqfCfqgtIYXbQ6@cluster0.z5ed8yy.mongodb.net/",
+        default="mongodb+srv://slackintegration:<dbpassword>@cluster0.z5ed8yy.mongodb.net/",
         description="MongoDB connection URI. If unset, local no-auth MongoDB is used.",
     )
 
