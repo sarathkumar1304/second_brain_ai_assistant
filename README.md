@@ -32,7 +32,7 @@ After completing the Offline and Online pipeline setups, you'll have access to y
 
 ## Demo Video
 
-[![Demo Video](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)](https://youtu.be/9UegmZYLOWc)
+[![Demo Video](static/image.png)](https://youtu.be/9UegmZYLOWc)
 
 
 ## 💰 Cost Structure
